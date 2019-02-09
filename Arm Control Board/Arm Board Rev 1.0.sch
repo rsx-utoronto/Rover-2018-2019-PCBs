@@ -160,11 +160,8 @@
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<<<<<<< HEAD
 <package name="3,81/1,1">
-=======
 <package name="3,81/1,4">
->>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
@@ -175,15 +172,11 @@
 <wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<<<<<<< HEAD
 <pad name="1" x="0" y="0" drill="1.1176" diameter="3.81" shape="octagon"/>
-=======
 <pad name="1" x="0" y="0" drill="1.397" diameter="3.81" shape="octagon"/>
->>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
-</packages>
 <symbols>
 <symbol name="PAD">
 <wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
@@ -194,7 +187,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<<<<<<< HEAD
 <deviceset name="3,81/1,1" prefix="PAD" uservalue="yes">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <gates>
@@ -204,7 +196,6 @@
 <device name="" package="3,81/1,1">
 <connects>
 <connect gate="P" pin="P" pad="1"/>
-=======
 <deviceset name="3,81/1,4" prefix="PAD" uservalue="yes">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <gates>
@@ -214,7 +205,6 @@
 <device name="" package="3,81/1,4">
 <connects>
 <connect gate="1" pin="P" pad="1"/>
->>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
 </connects>
 <technologies>
 <technology name=""/>
@@ -229,7 +219,7 @@
 Based on the previous libraries:
 &lt;ul&gt;
 &lt;li&gt;r.lbr
-&lt;li&gt;cap.lbr 
+&lt;li&gt;cap.lbr
 &lt;li&gt;cap-fe.lbr
 &lt;li&gt;captant.lbr
 &lt;li&gt;polcap.lbr
@@ -4168,12 +4158,12 @@ W = angled&lt;p&gt;
 This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
 &lt;br&gt;
 &lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
 &lt;br&gt;
 &lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
 &lt;br&gt;
 &lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
 &lt;br&gt;
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
@@ -5221,7 +5211,7 @@ Source: http://www.molex.com</description>
 Based on the previous libraries:
 &lt;ul&gt;
 &lt;li&gt;r.lbr
-&lt;li&gt;cap.lbr 
+&lt;li&gt;cap.lbr
 &lt;li&gt;cap-fe.lbr
 &lt;li&gt;captant.lbr
 &lt;li&gt;polcap.lbr
@@ -10784,10 +10774,10 @@ with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
+for full support of SPICE simulation.
 </note>
 </compatibility>
 </eagle>
