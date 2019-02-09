@@ -175,6 +175,21 @@
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
+<package name="3,81/1,4">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.397" diameter="3.81" shape="octagon"/>
+<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD">
@@ -195,6 +210,22 @@
 <device name="" package="3,81/1,1">
 <connects>
 <connect gate="P" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3,81/1,4" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3,81/1,4">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5373,6 +5404,8 @@ Source: http://www.molex.com</description>
 <part name="Q3" library="adafruit" deviceset="MOSFET-N" device="REFLOW"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="12V" library="wirepad" deviceset="3,81/1,4" device=""/>
+<part name="GND" library="wirepad" deviceset="3,81/1,4" device=""/>
 <part name="ENCODER_OUTPUT" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="MD_OUT_6" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="MD_OUT_5" library="pinhead" deviceset="PINHD-1X8" device=""/>
@@ -5473,6 +5506,14 @@ Source: http://www.molex.com</description>
 <instance part="R6" gate="G$1" x="500.38" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="498.8814" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="503.682" y="120.65" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="12V" gate="1" x="0" y="342.9" smashed="yes">
+<attribute name="NAME" x="-1.143" y="344.7542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.143" y="339.598" size="1.778" layer="96"/>
+</instance>
+<instance part="GND" gate="1" x="0" y="325.12" smashed="yes">
+<attribute name="NAME" x="-1.143" y="326.9742" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.143" y="321.818" size="1.778" layer="96"/>
 </instance>
 <instance part="ENCODER_OUTPUT" gate="1" x="637.54" y="165.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="638.81" y="175.26" size="1.778" layer="96" rot="R180"/>
@@ -6015,6 +6056,11 @@ Source: http://www.molex.com</description>
 <wire x1="58.42" y1="314.96" x2="58.42" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="GND" gate="1" pin="P"/>
+<wire x1="2.54" y1="325.12" x2="15.24" y2="325.12" width="0.1524" layer="91"/>
+<label x="15.24" y="325.12" size="0.6096" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="MD_OUT_6" gate="A" pin="1"/>
 <wire x1="154.94" y1="274.32" x2="154.94" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="271.78" x2="132.08" y2="271.78" width="0.1524" layer="91"/>
@@ -6045,12 +6091,15 @@ Source: http://www.molex.com</description>
 </net>
 <net name="12V" class="0">
 <segment>
+<pinref part="12V" gate="1" pin="P"/>
+<wire x1="2.54" y1="342.9" x2="40.64" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="342.9" x2="40.64" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="317.5" x2="43.18" y2="317.5" width="0.1524" layer="91"/>
 <junction x="40.64" y="317.5"/>
 <wire x1="40.64" y1="342.9" x2="157.48" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="342.9" x2="264.16" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="342.9" x2="264.16" y2="317.5" width="0.1524" layer="91"/>
+<junction x="40.64" y="342.9"/>
 <wire x1="264.16" y1="317.5" x2="266.7" y2="317.5" width="0.1524" layer="91"/>
 <junction x="264.16" y="317.5"/>
 <wire x1="157.48" y1="342.9" x2="157.48" y2="314.96" width="0.1524" layer="91"/>
@@ -6104,9 +6153,6 @@ Source: http://www.molex.com</description>
 <wire x1="640.08" y1="342.9" x2="650.24" y2="342.9" width="0.1524" layer="91"/>
 <junction x="640.08" y="342.9"/>
 <label x="650.24" y="342.9" size="0.6096" layer="95" xref="yes"/>
-<wire x1="40.64" y1="342.9" x2="35.56" y2="342.9" width="0.1524" layer="91"/>
-<junction x="40.64" y="342.9"/>
-<label x="35.56" y="342.9" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>
