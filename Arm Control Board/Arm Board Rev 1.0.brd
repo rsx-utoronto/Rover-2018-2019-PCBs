@@ -2693,6 +2693,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="76.73" y="101.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="78" y="46.06" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </element>
 <element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-2" value="5566-2" x="13" y="57" smashed="yes" rot="R180">
 <attribute name="MF" value="MOLEX" x="9" y="64" size="1.778" layer="27"/>
@@ -2701,6 +2702,8 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1822072" x="13" y="57" size="1.778" layer="27" rot="R180"/>
 <attribute name="OC_NEWARK" value="unknown" x="13" y="57" size="1.778" layer="27" rot="R180"/>
 <attribute name="VALUE" x="15.54" y="63.35" size="1.27" layer="27" rot="R180"/>
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 </element>
@@ -3089,8 +3092,12 @@ design rules under a new name.</description>
 <wire x1="10.08" y1="44.31" x2="20.35" y2="111.92" width="0" layer="19" extent="1-1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="161.81" y1="-13.13" x2="122.89" y2="111.92" width="0" layer="19" extent="1-1"/>
 >>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
+=======
+<wire x1="81.81" y1="49.87" x2="122.89" y2="111.92" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 <wire x1="81.81" y1="49.87" x2="122.89" y2="111.92" width="0" layer="19" extent="1-1"/>
 >>>>>>> parent of 4de3f87... removed tx and rx
