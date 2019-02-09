@@ -164,7 +164,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
@@ -185,6 +188,9 @@
 </package>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4de3f87... removed tx and rx
+=======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
@@ -228,7 +234,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
@@ -242,6 +251,9 @@
 </deviceset>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4de3f87... removed tx and rx
+=======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
@@ -9833,6 +9845,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
@@ -9850,6 +9865,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="Q2" library="adafruit" deviceset="MOSFET-N" device="REFLOW"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
@@ -9857,6 +9873,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
@@ -9908,11 +9926,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device=""/>
 =======
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100K"/>
 >>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
+=======
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
@@ -9935,6 +9958,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
@@ -9976,6 +10002,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <instance part="Q2" gate="G$1" x="510.54" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="511.175" y="165.1" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="509.27" y="165.1" size="1.27" layer="96" rot="R270"/>
@@ -10000,6 +10027,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="498.8814" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="503.682" y="120.65" size="1.778" layer="96" rot="R90"/>
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 =======
