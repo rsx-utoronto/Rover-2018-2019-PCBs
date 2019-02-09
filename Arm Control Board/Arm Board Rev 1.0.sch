@@ -162,7 +162,10 @@
 <packages>
 <package name="3,81/1,1">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
@@ -177,6 +180,9 @@
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
+<<<<<<< HEAD
+>>>>>>> parent of 4de3f87... removed tx and rx
+=======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <package name="3,81/1,4">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
@@ -214,7 +220,10 @@
 <connects>
 <connect gate="P" pin="P" pad="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 </connects>
 <technologies>
 <technology name=""/>
@@ -222,6 +231,9 @@
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
+>>>>>>> parent of 4de3f87... removed tx and rx
+=======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <deviceset name="3,81/1,4" prefix="PAD" uservalue="yes">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
@@ -9807,6 +9819,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <parts>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <part name="TX" library="wirepad" deviceset="3,81/1,1" device=""/>
@@ -9818,6 +9833,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R27" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R28" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="Q2" library="adafruit" deviceset="MOSFET-N" device="REFLOW"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
@@ -9825,6 +9841,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <part name="12V" library="wirepad" deviceset="3,81/1,4" device=""/>
@@ -9870,11 +9888,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="B1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="ARDUINO_MEGA_R3" device="FULL" package3d_urn="urn:adsk.eagle:package:37320/1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-2" device=""/>
 =======
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100K"/>
 >>>>>>> 4de3f87ba72f9095544a2dcdc2873b5173e91577
+=======
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="100k"/>
@@ -9887,6 +9910,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instances>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <instance part="TX" gate="P" x="25.4" y="60.96" smashed="yes">
@@ -9922,6 +9948,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="VALUE" x="143.002" y="44.45" size="1.778" layer="96" rot="R90"/>
 </instance>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <instance part="Q2" gate="G$1" x="510.54" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="511.175" y="165.1" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="509.27" y="165.1" size="1.27" layer="96" rot="R270"/>
@@ -9946,6 +9973,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="498.8814" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="503.682" y="120.65" size="1.778" layer="96" rot="R90"/>
 =======
+=======
+>>>>>>> parent of 4de3f87... removed tx and rx
 =======
 >>>>>>> parent of 4de3f87... removed tx and rx
 <instance part="12V" gate="1" x="0" y="342.9" smashed="yes">
