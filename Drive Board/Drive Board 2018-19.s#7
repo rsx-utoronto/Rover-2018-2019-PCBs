@@ -17673,7 +17673,6 @@ Source: http://www.mew-europe.com/.. en_ds_61212_0000.pdf</description>
 <part name="C7" library="capacitor-wima" deviceset="C" device="5/5.5" value="0.33uF"/>
 <part name="C8" library="capacitor-wima" deviceset="C" device="5/5.5" value="0.1uF"/>
 <part name="K1" library="relay" deviceset="JT?-*" device="N-PCB" technology="DC6V"/>
-<part name="S2" library="switch-dil" deviceset="DS01E" device=""/>
 <part name="S3" library="switch-dil" deviceset="DS01E" device=""/>
 <part name="S4" library="switch-dil" deviceset="DS01E" device=""/>
 <part name="S5" library="switch-dil" deviceset="DS01E" device=""/>
@@ -17745,7 +17744,6 @@ Source: http://www.mew-europe.com/.. en_ds_61212_0000.pdf</description>
 <instance part="C8" gate="G$1" x="-254" y="198.12"/>
 <instance part="K1" gate="G$1" x="-243.84" y="162.56" rot="R180"/>
 <instance part="K1" gate="G$2" x="-259.08" y="162.56" rot="R180"/>
-<instance part="S2" gate="1" x="-370.84" y="2.54" rot="R180"/>
 <instance part="S3" gate="1" x="-370.84" y="-88.9" rot="R180"/>
 <instance part="S4" gate="1" x="-292.1" y="-88.9" rot="R180"/>
 <instance part="S5" gate="1" x="-220.98" y="-88.9" rot="R180"/>

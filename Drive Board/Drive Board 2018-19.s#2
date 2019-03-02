@@ -18098,6 +18098,26 @@ naming: grid - package width</description>
 <wire x1="-129.54" y1="160.02" x2="-129.54" y2="165.1" width="0.1524" layer="91"/>
 <label x="-129.54" y="165.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="129.54" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X4" gate="G$1" pin="1"/>
+<pinref part="X4" gate="G$1" pin="2"/>
+<wire x1="-63.5" y1="116.84" x2="-60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="53.34" x2="-45.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="101.6" x2="-63.5" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="101.6" x2="-63.5" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-63.5" y="116.84"/>
+<pinref part="B2" gate="G$1" pin="GND@1"/>
+<wire x1="-45.72" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-25.4" y="53.34"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -18189,7 +18209,7 @@ naming: grid - package width</description>
 <wire x1="-243.84" y1="172.72" x2="-254" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="CURR_SENSE" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="IP+"/>
 <wire x1="-347.98" y1="25.4" x2="-340.36" y2="25.4" width="0.1524" layer="91"/>
@@ -18395,16 +18415,6 @@ naming: grid - package width</description>
 </segment>
 </net>
 <net name="BATTERY_V+" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-289.56" y1="200.66" x2="-289.56" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-289.56" y1="203.2" x2="-279.4" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A1" pin="VI"/>
-<pinref part="MINISRV11" gate="G$1" pin="PS2"/>
-<wire x1="-327.66" y1="264.16" x2="-327.66" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-327.66" y1="203.2" x2="-289.56" y2="203.2" width="0.1524" layer="91"/>
-<junction x="-289.56" y="203.2"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VIN1"/>
 <pinref part="U$2" gate="G$1" pin="VIN2"/>
@@ -18709,28 +18719,6 @@ naming: grid - package width</description>
 <wire x1="-193.04" y1="-152.4" x2="-195.58" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="4"/>
-<wire x1="129.54" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="22.86" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="22.86" x2="-10.16" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="X4" gate="G$1" pin="1"/>
-<pinref part="X4" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="116.84" x2="-60.96" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="53.34" x2="-45.72" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="101.6" x2="-63.5" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="101.6" x2="-63.5" y2="116.84" width="0.1524" layer="91"/>
-<junction x="-63.5" y="116.84"/>
-<pinref part="B2" gate="G$1" pin="GND@1"/>
-<wire x1="-45.72" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
-<junction x="-25.4" y="53.34"/>
-</segment>
-</net>
 <net name="D1" class="0">
 <segment>
 <pinref part="B2" gate="G$1" pin="D1"/>
@@ -18889,6 +18877,18 @@ naming: grid - package width</description>
 <wire x1="38.1" y1="-134.62" x2="38.1" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-134.62" x2="38.1" y2="-134.62" width="0.1524" layer="91"/>
 <label x="81.28" y="-134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESTOP" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-289.56" y1="200.66" x2="-289.56" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-289.56" y1="203.2" x2="-279.4" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A1" pin="VI"/>
+<wire x1="-327.66" y1="203.2" x2="-289.56" y2="203.2" width="0.1524" layer="91"/>
+<junction x="-289.56" y="203.2"/>
+<pinref part="MINISRV11" gate="G$1" pin="PS2"/>
+<wire x1="-327.66" y1="264.16" x2="-327.66" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
