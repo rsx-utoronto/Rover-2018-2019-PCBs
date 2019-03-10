@@ -16210,9 +16210,11 @@ NS Package M08A</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-187.96" y1="139.7" x2="-172.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="139.7" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="139.7" x2="-172.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="139.7" x2="-172.72" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-172.72" y="139.7"/>
-<pinref part="OK1" gate="G$1" pin="COL"/>
+<wire x1="-172.72" y1="147.32" x2="-160.02" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="G$1" pin="EMIT"/>
+<wire x1="-160.02" y1="147.32" x2="-160.02" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -16257,11 +16259,13 @@ NS Package M08A</description>
 <junction x="-213.36" y="175.26"/>
 <wire x1="-213.36" y1="175.26" x2="-180.34" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="175.26" x2="-180.34" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="G$1" pin="EMIT"/>
-<wire x1="-180.34" y1="144.78" x2="-160.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="COIL_V_+"/>
 <wire x1="-243.84" y1="175.26" x2="-243.84" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="172.72" x2="-254" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="144.78" x2="-167.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="144.78" x2="-167.64" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="G$1" pin="COL"/>
+<wire x1="-167.64" y1="139.7" x2="-160.02" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K3" gate="1" pin="2"/>
