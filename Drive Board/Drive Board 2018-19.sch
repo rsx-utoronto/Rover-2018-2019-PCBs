@@ -13958,9 +13958,10 @@ naming: grid - package width</description>
 <library name="RSX_Busbar_contact">
 <packages>
 <package name="BUSBAR_MOUNT">
-<pad name="P$1" x="0" y="0" drill="3.5" diameter="8"/>
-<pad name="P$2" x="12.95" y="0" drill="3.5" diameter="8"/>
-<rectangle x1="-6.48" y1="-11.87" x2="19.43" y2="8.33" layer="17"/>
+<pad name="LEFTHOLE" x="0" y="0" drill="3.5" diameter="8"/>
+<pad name="RIGHTHOLE" x="12.95" y="0" drill="3.5" diameter="8"/>
+<smd name="P$1" x="6.8" y="-1.6" dx="25.91" dy="20.2" layer="16"/>
+<smd name="P$2" x="6.8" y="-1.6" dx="25.91" dy="20.2" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -13977,7 +13978,7 @@ naming: grid - package width</description>
 <devices>
 <device name="" package="BUSBAR_MOUNT">
 <connects>
-<connect gate="G$1" pin="CONTACT" pad="P$1"/>
+<connect gate="G$1" pin="CONTACT" pad="LEFTHOLE P$1 P$2 RIGHTHOLE" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
