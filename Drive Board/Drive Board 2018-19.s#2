@@ -13978,7 +13978,7 @@ naming: grid - package width</description>
 <devices>
 <device name="" package="BUSBAR_MOUNT">
 <connects>
-<connect gate="G$1" pin="CONTACT" pad="LEFTHOLE P$1 P$2 RIGHTHOLE"/>
+<connect gate="G$1" pin="CONTACT" pad="LEFTHOLE P$1 P$2 RIGHTHOLE" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
