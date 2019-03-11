@@ -13960,7 +13960,10 @@ naming: grid - package width</description>
 <package name="BUSBAR_MOUNT">
 <pad name="P$1" x="0" y="0" drill="3.5" diameter="8"/>
 <pad name="P$2" x="12.95" y="0" drill="3.5" diameter="8"/>
-<rectangle x1="-6.48" y1="-11.87" x2="19.43" y2="8.33" layer="17"/>
+<rectangle x1="-6.28" y1="-11.67" x2="19.63" y2="8.53" layer="29"/>
+<smd name="P$3" x="6.8" y="-1.6" dx="25.91" dy="20.2" layer="16"/>
+<smd name="P$4" x="6.8" y="-1.6" dx="25.91" dy="20.2" layer="1"/>
+<rectangle x1="-6.28" y1="-11.67" x2="19.63" y2="8.53" layer="30"/>
 </package>
 </packages>
 <symbols>
