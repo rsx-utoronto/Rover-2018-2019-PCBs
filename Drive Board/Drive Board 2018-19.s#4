@@ -13969,7 +13969,8 @@ naming: grid - package width</description>
 <symbols>
 <symbol name="BUSBAR_MOUNT">
 <circle x="0" y="0" radius="7.184203125" width="0.254" layer="94"/>
-<pin name="CONTACT" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="CONTACT_TOP" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="CONTACT_BOTTOM" x="12.7" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13980,7 +13981,8 @@ naming: grid - package width</description>
 <devices>
 <device name="" package="BUSBAR_MOUNT">
 <connects>
-<connect gate="G$1" pin="CONTACT" pad="BOTTOM_LAYER LEFTHOLE RIGHTHOLE TOP_LAYER"/>
+<connect gate="G$1" pin="CONTACT_BOTTOM" pad="BOTTOM_LAYER LEFTHOLE"/>
+<connect gate="G$1" pin="CONTACT_TOP" pad="RIGHTHOLE TOP_LAYER"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15216,7 +15218,7 @@ NS Package M08A</description>
 <label x="-302.26" y="157.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="CONTACT"/>
+<pinref part="U$7" gate="G$1" pin="CONTACT_TOP"/>
 <wire x1="-414.02" y1="261.62" x2="-414.02" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="251.46" x2="-332.74" y2="251.46" width="0.1524" layer="91"/>
 <label x="-401.32" y="251.46" size="1.778" layer="95"/>
@@ -15755,7 +15757,7 @@ NS Package M08A</description>
 <wire x1="-60.96" y1="172.72" x2="-43.18" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="CONTACT"/>
+<pinref part="U$9" gate="G$1" pin="CONTACT_TOP"/>
 <wire x1="-55.88" y1="259.08" x2="-55.88" y2="236.22" width="0.1524" layer="91"/>
 <label x="-68.58" y="248.92" size="1.778" layer="95"/>
 </segment>
