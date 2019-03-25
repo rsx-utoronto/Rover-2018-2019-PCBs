@@ -3378,17 +3378,35 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="B2" library="SparkFun-Boards" package="ARDUINO_R3" value="ARDUINO_UNO_R3" x="176.53" y="33.02" rot="MR90"/>
-<element name="C1" library="rcl" package="E2,5-6" value="2.2uF" x="102.235" y="60.325" rot="R90"/>
-<element name="C10" library="rcl" package="E2,5-6" value="0.1uF" x="69.85" y="64.135" rot="R180"/>
-<element name="C2" library="rcl" package="E2,5-6" value="0.1uF" x="113.03" y="64.135" rot="R180"/>
-<element name="C3" library="rcl" package="E2,5-6" value="2.2uF" x="81.915" y="60.325" rot="R90"/>
-<element name="C4" library="rcl" package="E2,5-6" value="0.1uF" x="91.44" y="64.135" rot="R180"/>
-<element name="C5" library="rcl" package="E2,5-6" value="2.2uF" x="38.1" y="60.325" rot="R90"/>
-<element name="C6" library="rcl" package="E2,5-6" value="0.1uF" x="48.26" y="64.135" rot="R180"/>
+<element name="C1" library="rcl" package="E2,5-6" value="2.2uF" x="102.235" y="60.325" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.711" y="62.992" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="C10" library="rcl" package="E2,5-6" value="0.1uF" x="69.85" y="64.135" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.183" y="62.611" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="C2" library="rcl" package="E2,5-6" value="0.1uF" x="113.03" y="64.135" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.363" y="62.611" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="C3" library="rcl" package="E2,5-6" value="2.2uF" x="81.915" y="60.325" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.391" y="62.992" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="C4" library="rcl" package="E2,5-6" value="0.1uF" x="91.44" y="64.135" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.773" y="62.611" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="C5" library="rcl" package="E2,5-6" value="2.2uF" x="38.1" y="60.325" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.576" y="62.992" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="C6" library="rcl" package="E2,5-6" value="0.1uF" x="48.26" y="64.135" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.593" y="62.611" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="C7" library="capacitor-wima" package="C5B5.5" value="0.33uF" x="161.925" y="90.805" rot="R180"/>
 <element name="C8" library="capacitor-wima" package="C5B5.5" value="0.1uF" x="154.305" y="90.805"/>
-<element name="C9" library="rcl" package="E2,5-6" value="2.2uF" x="59.69" y="60.325" rot="R90"/>
-<element name="D1" library="diode" package="DO41-10" value="1N4004" x="25.4" y="37.465" rot="R180"/>
+<element name="C9" library="rcl" package="E2,5-6" value="2.2uF" x="59.69" y="60.325" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.166" y="62.992" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="D1" library="diode" package="DO41-10" value="1N4004" x="25.4" y="37.465" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.797" y="40.259" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="IC1" library="ALLEGRO" package="CB-PFF" value="ACS758KCB" x="112.395" y="29.845" rot="R180">
 <attribute name="MPN" value="ACS758KCB-150B-PFF-T" x="112.395" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1718995" x="112.395" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3453,11 +3471,12 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="215.9" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="MINISRV11" library="Molex" package="MINI-FIT-SR-R" value="MINI-FIT-SR-R" x="200.66" y="100.33"/>
-<element name="OK1" library="optocoupler" package="DIP4" value="SFH618A-2" x="26.67" y="25.4" rot="R270">
+<element name="OK1" library="optocoupler" package="DIP4" value="SFH618A-2" x="26.67" y="25.4" smashed="yes" rot="R270">
 <attribute name="MPN" value="SFH618A-2" x="26.67" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="6424855" x="26.67" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="26.67" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="21H7744" x="26.67" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="25.4" y="24.765" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="Q1" library="semicon-smd-ipc" package="SOT23" value="" x="16.51" y="33.02" rot="R90"/>
 <element name="R1" library="resistor" package="0204/7" value="10k" x="107.315" y="55.245" rot="R90"/>
@@ -3474,11 +3493,19 @@ design rules under a new name.</description>
 <element name="R21" library="resistor" package="0207/10" value="100k" x="262.255" y="64.77" rot="R270"/>
 <element name="R22" library="resistor" package="0207/10" value="100k" x="236.855" y="64.77" rot="R270"/>
 <element name="R3" library="resistor" package="0204/7" value="10k" x="42.545" y="55.245" rot="R90"/>
-<element name="R4" library="resistor" package="0207/10" value="470" x="25.4" y="34.925"/>
+<element name="R4" library="resistor" package="0207/10" value="470" x="25.4" y="34.925" smashed="yes">
+<attribute name="NAME" x="23.622" y="33.909" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="R5" library="resistor" package="0204/7" value="10k" x="64.135" y="55.245" rot="R90"/>
-<element name="R6" library="resistor" package="0207/10" value="4.7k" x="25.4" y="32.385" rot="R180"/>
-<element name="R7" library="resistor" package="0207/10" value="4.7k" x="25.4" y="29.21" rot="R180"/>
-<element name="R8" library="resistor" package="0207/10" value="330" x="27.94" y="21.59" rot="MR0"/>
+<element name="R6" library="resistor" package="0207/10" value="4.7k" x="25.4" y="32.385" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.908" y="32.766" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R7" library="resistor" package="0207/10" value="4.7k" x="25.4" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.908" y="29.591" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R8" library="resistor" package="0207/10" value="330" x="27.94" y="21.59" smashed="yes" rot="MR0">
+<attribute name="NAME" x="25.908" y="21.209" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="R9" library="resistor" package="0207/10" value="170" x="271.145" y="77.47" rot="R270"/>
 <element name="S3" library="switch-dil" package="DS-01" value="" x="225.425" y="78.105" rot="R180">
 <attribute name="MPN" value="" x="225.425" y="78.105" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3536,85 +3563,138 @@ design rules under a new name.</description>
 <element name="IC6" library="linear" package="DIL08" value="LM741P" x="140.335" y="63.5" rot="R270"/>
 <element name="R23" library="resistor" package="0207/10" value="7.5k" x="128.27" y="59.69"/>
 <element name="R24" library="resistor" package="0207/10" value="24k" x="128.27" y="64.135"/>
-<element name="R14" library="resistor" package="0207/10" value="100k" x="170.815" y="76.2"/>
-<element name="R15" library="resistor" package="0207/10" value="100k" x="170.815" y="80.645" rot="R180"/>
-<element name="R25" library="resistor" package="0207/10" value="100k" x="27.94" y="19.05"/>
+<element name="R14" library="resistor" package="0207/10" value="100k" x="170.815" y="76.2" smashed="yes">
+<attribute name="NAME" x="169.037" y="75.819" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="R15" library="resistor" package="0207/10" value="100k" x="170.815" y="80.645" smashed="yes" rot="R180">
+<attribute name="NAME" x="171.958" y="81.026" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R25" library="resistor" package="0207/10" value="100k" x="27.94" y="19.05" smashed="yes">
+<attribute name="NAME" x="26.162" y="18.669" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="LED8" library="eagle-ltspice" package="LED_1206" value="" x="13.335" y="25.4" rot="R90">
 <attribute name="SPICEMODEL" value="NONE" x="8.89" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICETYPE" value="diode" x="8.89" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="8.89" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R26" library="resistor" package="0207/10" value="500" x="20.32" y="21.59" rot="R90"/>
-<element name="D2" library="diode" package="DO41-10" value="1N4004" x="127" y="91.44"/>
+<element name="R26" library="resistor" package="0207/10" value="500" x="20.32" y="21.59" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.336" y="20.447" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="D2" library="diode" package="DO41-10" value="1N4004" x="127" y="91.44" smashed="yes">
+<attribute name="NAME" x="125.603" y="88.646" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="LED9" library="eagle-ltspice" package="LED_1206" value="" x="135.255" y="92.71" rot="R270">
 <attribute name="SPICETYPE" value="diode" x="159.385" y="92.71" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="159.385" y="92.71" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="159.385" y="92.71" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R27" library="resistor" package="0207/10" value="470" x="127" y="94.615" rot="R180"/>
+<element name="R27" library="resistor" package="0207/10" value="470" x="127" y="94.615" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.143" y="95.631" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="Q2" library="semicon-smd-ipc" package="SOT23" value="" x="140.97" y="93.345" rot="R270"/>
-<element name="R28" library="resistor" package="0207/10" value="4.7k" x="127" y="97.79"/>
-<element name="R29" library="resistor" package="0207/10" value="4.7k" x="127" y="100.965"/>
-<element name="OK2" library="optocoupler" package="DIP4" value="SFH618A-2" x="125.73" y="104.775" rot="R90">
+<element name="R28" library="resistor" package="0207/10" value="4.7k" x="127" y="97.79" smashed="yes">
+<attribute name="NAME" x="125.222" y="97.409" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="R29" library="resistor" package="0207/10" value="4.7k" x="127" y="100.965" smashed="yes">
+<attribute name="NAME" x="125.222" y="100.584" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="OK2" library="optocoupler" package="DIP4" value="SFH618A-2" x="125.73" y="104.775" smashed="yes" rot="R90">
 <attribute name="MPN" value="SFH618A-2" x="145.415" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="145.415" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="6424855" x="145.415" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="21H7744" x="145.415" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="127" y="104.14" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R30" library="resistor" package="0207/10" value="330" x="118.11" y="103.505" rot="R90"/>
-<element name="R31" library="resistor" package="0207/10" value="100k" x="115.57" y="103.505" rot="R270"/>
-<element name="LED10" library="eagle-ltspice" package="LED_1206" value="" x="143.51" y="99.695" rot="R90">
-<attribute name="SPICETYPE" value="diode" x="156.845" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEMODEL" value="NONE" x="156.845" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="D" x="156.845" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R30" library="resistor" package="0207/10" value="330" x="118.11" y="103.505" smashed="yes" rot="R90">
+<attribute name="NAME" x="119.126" y="101.727" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R31" library="resistor" package="0207/10" value="100k" x="115.57" y="103.505" smashed="yes" rot="R270">
+<attribute name="NAME" x="115.189" y="104.648" size="1.27" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="LED10" library="eagle-ltspice" package="LED_1206" value="" x="142.24" y="102.235" smashed="yes" rot="R90">
+<attribute name="SPICETYPE" value="diode" x="155.575" y="80.645" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEMODEL" value="NONE" x="155.575" y="80.645" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="D" x="155.575" y="80.645" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="144.78" y="100.33" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="144.78" y="100.965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R32" library="resistor" package="0207/10" value="500" x="135.255" y="104.14" rot="R90"/>
-<element name="D3" library="diode" package="DO41-10" value="1N4004" x="93.345" y="92.075"/>
+<element name="D3" library="diode" package="DO41-10" value="1N4004" x="93.345" y="92.075" smashed="yes">
+<attribute name="NAME" x="92.583" y="89.281" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="LED11" library="eagle-ltspice" package="LED_1206" value="" x="100.965" y="92.71" rot="R270">
 <attribute name="SPICETYPE" value="diode" x="121.285" y="105.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="121.285" y="105.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="121.285" y="105.41" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R33" library="resistor" package="0207/10" value="470" x="93.345" y="95.25" rot="R180"/>
+<element name="R33" library="resistor" package="0207/10" value="470" x="93.345" y="95.25" smashed="yes" rot="R180">
+<attribute name="NAME" x="94.488" y="95.631" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="Q3" library="semicon-smd-ipc" package="SOT23" value="" x="106.045" y="94.615" rot="R270"/>
-<element name="R34" library="resistor" package="0207/10" value="4.7k" x="93.345" y="97.79"/>
-<element name="R35" library="resistor" package="0207/10" value="4.7k" x="93.345" y="100.965"/>
-<element name="OK3" library="optocoupler" package="DIP4" value="SFH618A-2" x="92.075" y="104.775" rot="R90">
+<element name="R34" library="resistor" package="0207/10" value="4.7k" x="93.345" y="97.79" smashed="yes">
+<attribute name="NAME" x="91.567" y="97.409" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="R35" library="resistor" package="0207/10" value="4.7k" x="93.345" y="100.965" smashed="yes">
+<attribute name="NAME" x="91.567" y="100.584" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="OK3" library="optocoupler" package="DIP4" value="SFH618A-2" x="92.075" y="104.775" smashed="yes" rot="R90">
 <attribute name="MPN" value="SFH618A-2" x="111.125" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="111.125" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="6424855" x="111.125" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="21H7744" x="111.125" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="93.345" y="104.14" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R36" library="resistor" package="0207/10" value="330" x="83.82" y="103.505" rot="R90"/>
-<element name="R37" library="resistor" package="0207/10" value="100k" x="80.01" y="103.505" rot="R270"/>
-<element name="LED12" library="eagle-ltspice" package="LED_1206" value="" x="110.49" y="100.965" rot="R90">
-<attribute name="SPICETYPE" value="diode" x="118.745" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEMODEL" value="NONE" x="118.745" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="D" x="118.745" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R36" library="resistor" package="0207/10" value="330" x="83.82" y="103.505" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.836" y="101.727" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R37" library="resistor" package="0207/10" value="100k" x="80.01" y="103.505" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.629" y="104.648" size="1.27" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="LED12" library="eagle-ltspice" package="LED_1206" value="" x="110.49" y="102.235" smashed="yes" rot="R90">
+<attribute name="SPICETYPE" value="diode" x="118.745" y="93.345" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEMODEL" value="NONE" x="118.745" y="93.345" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="D" x="118.745" y="93.345" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="113.03" y="100.33" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="113.03" y="100.965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R38" library="resistor" package="0207/10" value="500" x="102.87" y="104.14" rot="R90"/>
-<element name="D4" library="diode" package="DO41-10" value="1N4004" x="57.15" y="92.71"/>
+<element name="D4" library="diode" package="DO41-10" value="1N4004" x="57.15" y="92.71" smashed="yes">
+<attribute name="NAME" x="55.753" y="89.916" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="LED13" library="eagle-ltspice" package="LED_1206" value="" x="66.04" y="93.345" rot="R270">
 <attribute name="SPICETYPE" value="diode" x="86.36" y="106.045" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="86.36" y="106.045" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="86.36" y="106.045" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R39" library="resistor" package="0207/10" value="470" x="57.15" y="95.25" rot="R180"/>
+<element name="R39" library="resistor" package="0207/10" value="470" x="57.15" y="95.25" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.293" y="95.631" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="Q4" library="semicon-smd-ipc" package="SOT23" value="" x="70.485" y="95.885" rot="R270"/>
-<element name="R40" library="resistor" package="0207/10" value="4.7k" x="57.15" y="97.79"/>
-<element name="R41" library="resistor" package="0207/10" value="4.7k" x="57.15" y="100.965"/>
-<element name="OK4" library="optocoupler" package="DIP4" value="SFH618A-2" x="55.88" y="104.775" rot="R90">
+<element name="R40" library="resistor" package="0207/10" value="4.7k" x="57.15" y="97.79" smashed="yes">
+<attribute name="NAME" x="55.372" y="97.409" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="R41" library="resistor" package="0207/10" value="4.7k" x="57.15" y="100.965" smashed="yes">
+<attribute name="NAME" x="55.372" y="100.584" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="OK4" library="optocoupler" package="DIP4" value="SFH618A-2" x="55.88" y="104.775" smashed="yes" rot="R90">
 <attribute name="MPN" value="SFH618A-2" x="74.93" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="74.93" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="6424855" x="74.93" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="21H7744" x="74.93" y="95.885" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="57.15" y="105.41" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R42" library="resistor" package="0207/10" value="330" x="47.625" y="103.505" rot="R90"/>
-<element name="R43" library="resistor" package="0207/10" value="100k" x="44.45" y="103.505" rot="R270"/>
-<element name="LED14" library="eagle-ltspice" package="LED_1206" value="" x="73.66" y="102.87" rot="R90">
+<element name="R42" library="resistor" package="0207/10" value="330" x="47.625" y="103.505" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.641" y="102.362" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R43" library="resistor" package="0207/10" value="100k" x="44.45" y="103.505" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.069" y="105.283" size="1.27" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="LED14" library="eagle-ltspice" package="LED_1206" value="" x="73.66" y="102.87" smashed="yes" rot="R90">
 <attribute name="SPICETYPE" value="diode" x="81.915" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="81.915" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="81.915" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="76.2" y="100.965" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="76.2" y="101.6" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R44" library="resistor" package="0207/10" value="500" x="66.04" y="104.775" rot="R90"/>
 <element name="S1" library="switch-dil" package="DS-01" value="" x="69.85" y="105.41">
@@ -5067,10 +5147,11 @@ design rules under a new name.</description>
 <wire x1="107.315" y1="94.785" x2="107.145" y2="94.615" width="0.6096" layer="1"/>
 <wire x1="107.145" y1="94.615" x2="111.76" y2="94.615" width="0.6096" layer="1"/>
 <wire x1="111.76" y1="94.615" x2="112.395" y2="95.25" width="0.6096" layer="1"/>
-<wire x1="112.395" y1="95.25" x2="112.395" y2="101.6" width="0.6096" layer="1"/>
-<wire x1="112.395" y1="101.6" x2="111.76" y2="102.235" width="0.6096" layer="1"/>
-<wire x1="111.76" y1="102.235" x2="110.642" y2="102.235" width="0.6096" layer="1"/>
-<wire x1="110.642" y1="102.235" x2="110.49" y2="102.387" width="0.6096" layer="1"/>
+<wire x1="112.395" y1="95.25" x2="112.395" y2="98.425" width="0.6096" layer="1"/>
+<wire x1="112.395" y1="98.425" x2="112.395" y2="102.87" width="0.6096" layer="1"/>
+<wire x1="112.395" y1="102.87" x2="111.76" y2="103.505" width="0.6096" layer="1"/>
+<wire x1="111.76" y1="103.505" x2="110.642" y2="103.505" width="0.6096" layer="1"/>
+<wire x1="110.642" y1="103.505" x2="110.49" y2="103.657" width="0.6096" layer="1"/>
 <wire x1="83.82" y1="98.425" x2="83.82" y2="97.155" width="0.6096" layer="1"/>
 <wire x1="83.82" y1="97.155" x2="83.185" y2="96.52" width="0.6096" layer="1"/>
 <wire x1="83.185" y1="96.52" x2="76.2" y2="96.52" width="0.6096" layer="1"/>
@@ -5094,10 +5175,10 @@ design rules under a new name.</description>
 <wire x1="141.605" y1="93.81" x2="142.07" y2="93.345" width="0.6096" layer="1"/>
 <wire x1="142.07" y1="93.345" x2="144.78" y2="93.345" width="0.6096" layer="1"/>
 <wire x1="144.78" y1="93.345" x2="145.415" y2="93.98" width="0.6096" layer="1"/>
-<wire x1="145.415" y1="93.98" x2="145.415" y2="100.33" width="0.6096" layer="1"/>
-<wire x1="145.415" y1="100.33" x2="144.78" y2="100.965" width="0.6096" layer="1"/>
-<wire x1="144.78" y1="100.965" x2="143.662" y2="100.965" width="0.6096" layer="1"/>
-<wire x1="143.662" y1="100.965" x2="143.51" y2="101.117" width="0.6096" layer="1"/>
+<wire x1="145.415" y1="93.98" x2="145.415" y2="102.87" width="0.6096" layer="1"/>
+<wire x1="145.415" y1="102.87" x2="144.78" y2="103.505" width="0.6096" layer="1"/>
+<wire x1="144.78" y1="103.505" x2="143.662" y2="103.505" width="0.6096" layer="1"/>
+<wire x1="143.662" y1="103.505" x2="142.24" y2="103.657" width="0.6096" layer="1"/>
 <wire x1="144.78" y1="93.345" x2="147.955" y2="93.345" width="0.8128" layer="1"/>
 <wire x1="147.955" y1="93.345" x2="148.59" y2="93.98" width="0.8128" layer="1"/>
 <wire x1="148.59" y1="93.98" x2="148.59" y2="100.33" width="0.8128" layer="1"/>
@@ -5111,7 +5192,7 @@ design rules under a new name.</description>
 <wire x1="167.005" y1="93.345" x2="167.005" y2="95.885" width="0.8128" layer="1"/>
 <wire x1="142.875" y1="84.455" x2="142.875" y2="92.54" width="0.4064" layer="1"/>
 <wire x1="142.875" y1="92.54" x2="142.07" y2="93.345" width="0.4064" layer="1"/>
-<wire x1="115.57" y1="98.425" x2="112.395" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="98.425" x2="112.395" y2="98.425" width="0.8128" layer="1"/>
 </signal>
 <signal name="A5">
 <contactref element="B2" pad="A5"/>
@@ -5176,8 +5257,8 @@ design rules under a new name.</description>
 <contactref element="R32" pad="1"/>
 <wire x1="135.255" y1="99.06" x2="136.525" y2="99.06" width="0.6096" layer="1"/>
 <wire x1="136.525" y1="99.06" x2="137.795" y2="97.79" width="0.6096" layer="1"/>
-<wire x1="137.795" y1="97.79" x2="143.027" y2="97.79" width="0.6096" layer="1"/>
-<wire x1="143.027" y1="97.79" x2="143.51" y2="98.273" width="0.6096" layer="1"/>
+<wire x1="137.795" y1="97.79" x2="142.392" y2="97.79" width="0.6096" layer="1"/>
+<wire x1="142.392" y1="97.79" x2="142.24" y2="100.813" width="0.6096" layer="1"/>
 </signal>
 <signal name="VOLTAGE_REG_OUT">
 <contactref element="IC5" pad="3"/>
@@ -5344,7 +5425,7 @@ design rules under a new name.</description>
 <contactref element="R38" pad="1"/>
 <wire x1="102.87" y1="99.06" x2="103.505" y2="98.425" width="0.6096" layer="1"/>
 <wire x1="103.505" y1="98.425" x2="110.49" y2="98.425" width="0.6096" layer="1"/>
-<wire x1="110.49" y1="98.425" x2="110.49" y2="99.543" width="0.6096" layer="1"/>
+<wire x1="110.49" y1="98.425" x2="110.49" y2="100.813" width="0.6096" layer="1"/>
 </signal>
 <signal name="COIL_V-_3">
 <contactref element="D3" pad="A"/>
