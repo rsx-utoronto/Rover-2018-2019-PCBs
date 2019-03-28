@@ -169,24 +169,20 @@
 <text x="153.4" y="105.2" size="0.6096" layer="25" rot="R180">SDA</text>
 <text x="157.4" y="116.2" size="0.6096" layer="25" rot="R180">5V</text>
 <text x="154" y="116.2" size="0.6096" layer="25" rot="R180">GND</text>
-<text x="60.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTA M2</text>
-<text x="66.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTB M1</text>
-<text x="68.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTA M7</text>
-<text x="70.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTB M7</text>
-<text x="72.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTA M6</text>
-<text x="72.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTB M6</text>
-<text x="70.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTA M5</text>
-<text x="68.2" y="109.2" size="0.6096" layer="25" rot="R270">OUT5 M5</text>
-<text x="66.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTA M4</text>
-<text x="64.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTB M4</text>
-<text x="62.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTA M3</text>
-<text x="60.2" y="109.2" size="0.6096" layer="25" rot="R270">OUTB M3</text>
-<text x="62.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTB M2</text>
-<text x="64.2" y="113.8" size="0.6096" layer="25" rot="R270">OUTA M1</text>
-<wire x1="58.8" y1="114.8" x2="74.2" y2="114.8" width="0.4064" layer="25"/>
-<wire x1="74.2" y1="114.8" x2="74.2" y2="104.6" width="0.4064" layer="25"/>
-<wire x1="74.2" y1="104.6" x2="58.8" y2="104.6" width="0.4064" layer="25"/>
-<wire x1="58.8" y1="104.6" x2="58.8" y2="114.8" width="0.4064" layer="25"/>
+<text x="79.8" y="112.8" size="0.6096" layer="25" rot="R180">OUTA M2</text>
+<text x="92.6" y="118.8" size="0.6096" layer="25" rot="R270">OUTB M1</text>
+<text x="96.2" y="118.8" size="0.6096" layer="25" rot="R270">OUTA M7</text>
+<text x="99.8" y="118.8" size="0.6096" layer="25" rot="R270">OUTB M7</text>
+<text x="110" y="112.8" size="0.6096" layer="25" rot="R180">OUTA M6</text>
+<text x="109.8" y="107.8" size="0.6096" layer="25" rot="R180">OUTB M6</text>
+<text x="99.8" y="104.6" size="0.6096" layer="25" rot="R270">OUTA M5</text>
+<text x="96.2" y="104.6" size="0.6096" layer="25" rot="R270">OUT5 M5</text>
+<text x="92.6" y="104.6" size="0.6096" layer="25" rot="R270">OUTA M4</text>
+<text x="89.4" y="104.6" size="0.6096" layer="25" rot="R270">OUTB M4</text>
+<text x="85.6" y="104.6" size="0.6096" layer="25" rot="R270">OUTA M3</text>
+<text x="79.8" y="107.6" size="0.6096" layer="25" rot="R180">OUTB M3</text>
+<text x="85.6" y="118.8" size="0.6096" layer="25" rot="R270">OUTB M2</text>
+<text x="89" y="118.8" size="0.6096" layer="25" rot="R270">OUTA M1</text>
 </plain>
 <libraries>
 <library name="arduino_due_shield">
