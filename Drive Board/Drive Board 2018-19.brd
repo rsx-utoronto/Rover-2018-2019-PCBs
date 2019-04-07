@@ -188,7 +188,7 @@
 <text x="341.63" y="10.16" size="0.8128" layer="25" rot="R90">OUT B 6</text>
 <text x="346.075" y="10.16" size="0.8128" layer="25" rot="R90">OUT B 5</text>
 <text x="350.52" y="10.16" size="0.8128" layer="25" rot="R90">OUT B 4</text>
-<text x="1.27" y="62.865" size="0.5" layer="26" rot="R270">Dylan Lamont 2019</text>
+<text x="1.27" y="62.865" size="0.5" layer="25" rot="R270">Dylan Lamont 2019</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
